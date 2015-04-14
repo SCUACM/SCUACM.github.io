@@ -1,3 +1,3 @@
 # SCUACM.github.io
-adithya sux -Robbie2012
+adithya sux -Robbie
 
