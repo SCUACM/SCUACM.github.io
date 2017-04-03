@@ -279,10 +279,7 @@ header .device-container {
 header .device-container .screen img {
   border-radius: 3px;
 }
-.btn-hero-left {
-  visibility: hidden;
-}
-.btn-hero-right {
+.btn-hero {
   visibility: hidden;
 }
 @media (min-width: 768px) {
@@ -308,13 +305,8 @@ header .device-container .screen img {
     max-height: calc(0vh);
     margin: 100px auto 0;
   }
-  .btn-hero-left {
+  .btn-hero {
     visibility: visible;
-    float: right;
-  }
-  .btn-hero-right {
-    visibility: visible;
-    float: left;
   }
 }
 @media (min-width: 992px) {
@@ -421,6 +413,25 @@ section.about .feature-item i {
   section.about .feature-item {
     max-width: none;
   }
+}
+
+
+
+
+/**********************************************/
+/************* Recap Section ******************/
+/**********************************************/
+section.recap .section-heading {
+  margin: 50px 0 0px 0;
+}
+section.recap .section-heading h2 {
+  margin-top: -100px;
+}
+section.recap img {
+    max-height: 75%;
+    max-width: 75%;
+    display: block;
+    margin: auto;
 }
 
 
