@@ -366,7 +366,9 @@ section.sponsors .badges .badge-link:last-child {
   }
 }
 
-
+#bigdatafed {
+    background: white;
+}
 
 
 /**********************************************/
