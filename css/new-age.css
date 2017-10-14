@@ -557,3 +557,16 @@ footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
 }
+
+hr.sponsor-offset {
+  height: 1px;
+  min-height: 0px;
+  border: none;
+  margin: 0;
+  background: white;
+  position: relative;
+  top: -75px;
+  width: 75%;
+  max-width: initial;
+  margin-left: 12.5%;
+}
