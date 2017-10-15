@@ -558,7 +558,7 @@ footer ul li a.active {
   text-decoration: none;
 }
 
-hr.sponsor-offset {
+hr.sponsor-cutoff {
   height: 1px;
   min-height: 0px;
   border: none;
@@ -569,4 +569,12 @@ hr.sponsor-offset {
   width: 75%;
   max-width: initial;
   margin-left: 12.5%;
+}
+
+a.no-decor {
+  text-decoration: none;
+}
+
+.bg-primary {
+  background: #29A598 !important;
 }
