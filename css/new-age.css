@@ -425,6 +425,25 @@ section.about .feature-item i {
   }
 }
 
+section.about table {
+  margin: auto;
+  width: 100%;
+}
+
+section.about td {
+  padding: 15px;
+}
+
+section.about td:first-child {
+  width: 100px;
+  border-right: 1px solid grey;
+  text-align: right;
+}
+
+section.about td:nth-child(2) {
+  text-align: left;
+}
+
 
 
 
