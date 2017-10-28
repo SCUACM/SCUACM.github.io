@@ -578,3 +578,9 @@ a.no-decor {
 .bg-primary {
   background: #29A598 !important;
 }
+
+/* CUSTOM CSS TO INLINE THE COVER PAGE BUTTONS */
+.inline-button {
+  display: inline;
+  margin: 0% 1% 0% 1%;
+}
