@@ -234,6 +234,7 @@ body {
 /**********************************************/
 /**************** Hero Image ******************/
 /**********************************************/
+
 header {
   position: relative;
   width: 100%;
@@ -279,9 +280,11 @@ header .device-container {
 header .device-container .screen img {
   border-radius: 3px;
 }
+
 .btn-hero {
   visibility: hidden;
 }
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -313,6 +316,11 @@ header .device-container .screen img {
   header .header-content .header-content-inner h1 {
     font-size: 50px;
   }
+}
+
+header .inline-button {
+  display: inline;
+  margin: 0% 1% 0% 1%;
 }
 
 
@@ -415,6 +423,25 @@ section.about .feature-item i {
   section.about .feature-item {
     max-width: none;
   }
+}
+
+section.about table {
+  margin: auto;
+  width: 100%;
+}
+
+section.about td {
+  padding: 15px;
+}
+
+section.about td:first-child {
+  width: 100px;
+  border-right: 1px solid grey;
+  text-align: right;
+}
+
+section.about td:nth-child(2) {
+  text-align: left;
 }
 
 
@@ -527,6 +554,41 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 
+
+
+
+
+
+/**********************************************/
+/************** Mentors Section ***************/
+/**********************************************/
+section.mentors {
+  padding: 75px 0;
+  position: relative;
+}
+
+section.mentors h2 {
+  margin-top: -25px;
+  font-size: 50px;
+}
+
+section.mentors .mb-0 {
+  margin-bottom: 5px;
+}
+
+section.mentors .blockquote-footer {
+  background-color: transparent;
+  padding: 0 10% 0 0;
+  color: #fff;
+  text-align: right;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  section.mentors h2 {
+    font-size: 70px;
+  }
+}
 
 
 
