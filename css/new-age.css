@@ -351,29 +351,20 @@ section.sponsors h2 {
   margin-top: -25px;
   font-size: 50px;
 }
-section.sponsors .badges .badge-link {
-  display: block;
-  margin-bottom: 100px;
+section.sponsors .badges center {
+  width: 100%;
 }
 section.sponsors .badges img {
-  height: 175px;
   border-radius: 50%;
-}
-section.sponsors .badges .badge-link:last-child {
-  margin-bottom: 0;
-}
-@media (min-width: 768px) {
-  section.sponsors .badges .badge-link {
-    display: block;
-    margin-bottom: 10px;
-  }
+  width: inherit;
+  height: auto;
+  margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   section.sponsors h2 {
     font-size: 70px;
   }
 }
-
 #bigdatafed {
     background: white;
 }
