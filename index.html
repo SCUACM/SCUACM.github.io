@@ -87,7 +87,9 @@
                           <div class="row">
                             <div class="col-sm-12 text-center">
                               <a href="#about" class="btn btn-outline btn-xl page-scroll btn-hero inline-button">Learn More!</a>
-                              <a href="https://goo.gl/forms/vYGtLmXA7aduu2qi2" target="_blank" class="btn btn-outline btn-xl inline-button">Sign Up</a>
+                              <!-- SIGN UP BUTTON DEACTIVATED
+                                <a href="https://goo.gl/forms/vYGtLmXA7aduu2qi2" target="_blank" class="btn btn-outline btn-xl inline-button">Sign Up</a>
+                              -->
                             </div>
                           </div>
                         </div>
@@ -104,7 +106,7 @@
                     <div class="section-heading">
                         <h2> Santa Clara University's social good hackathon </h2>
                         <h3> March 3-4 in Locatelli </h3>
-                        <p class="text-muted">Join us in our fifth year of solving pressing social issues using your creativity and code</p>
+                        <p class="text-muted">Thank you for joining us in our fifth year of solving pressing social issues using your creativity and code</p>
                         <hr>
                     </div>
                 </div>
@@ -151,7 +153,7 @@
                                 <div class="feature-item">
 <!--                                    <i class="icon-present text-primary"></i>-->
                                     <h3>How big can my team be?</h3>
-                                    <p class="text-muted">We will require all teams to be comprised of 2-6 people.</p>
+                                    <p class="text-muted">We require all teams to be comprised of 2-6 people.</p>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6">
@@ -177,7 +179,7 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="container-fluid">
                         <div class="row text-center">
-                            <h2>Event Itinerary</h3>
+                            <h2>Event Recap</h3>
                         </div>
                         <div class="row">
                             <div class="col-md-6 text-center">
@@ -307,7 +309,7 @@
             </div>
         </div>
     </section>
-
+<!-- TEMPORARILY HIDING LAST YEAR'S SPONSORS
     <section id="past-sponsors" class="sponsors bg-primary text-center">
         <hr class="sponsor-cutoff">
         <div class="container">
@@ -332,9 +334,6 @@
                             <div class="col-md-3 col-xs-4">
                                 <center><img class="badge-link" src="img/sanJose.png" alt=""></center>
                             </div>
-                            <!--<div class="col-md-3 col-xs-4">
-                                <center><img class="badge-link" src="img/redBull.jpg" alt=""></center>
-                            </div>-->
                             <div class="col-md-3 col-xs-4">
                                 <center><img class="badge-link" src="img/IEEESight.jpg" alt=""></center>
                             </div>
@@ -347,13 +346,15 @@
             </div>
         </div>
     </section>
+-->
 
     <section id="recap" class="recap">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <div class="section-heading">
-                        <h2> Last Year's Hack for Humanity Recap! </h2>
+                        <h2> Hack for Humanity Recap! </h2>
+                        <h4> Take a closer look at what people built on <a href="https://hack-for-humanity-2018.devpost.com/submissions">our Devpost contest</a>. </h4>
                         <hr>
                     </div>
                 </div>
@@ -362,31 +363,40 @@
                 <div class="col-md-12">
                     <div class="container-fluid">
                         <div class="row">
-                            <h3 class="text-center"> First Place </h3>
+                            <h3 class="text-center"> First Place: Vigil </h3>
                             <img src="img/1stPlace.jpg" alt="1stPlace" align="middle">
                         </div>
                         <br>
-                        <p> SymTome is a platform that connects doctors and patients in remote regions. It allows doctors to analyze health trends and distribute themselves in the best way possible when those that are ill far outnumber those who can help. The application is primarily targeted for helping individuals in third world countries who need healthcare.</p>
-                        <p> The application consists of two major components: an Amazon Alexa skill and a web application. In our implementation, the Alexa skill was running on an Amazon echo, but Alexa can run on a variety of platforms, including low-cost single board computers like the Raspberry Pi. The devices running the Alexa skill will be deployed to central areas of remote village, where hopefully everyone can access.</p>
+                        <p>Vigil aims to provide better communication between police officers and
+                        stranded students during live school shootings. As an organized
+                        emergency response system, Vigil provides strategic evacuation routes,
+                        fewer injuries and fatalities, and the ability to locate the shooter
+                        in a timely manner.</p>
+                        <p>Our web application consists of a police and student interface. We
+                        used HTML5, CSS3, Javascript for our UI as well as the Google maps
+                        API. We used phpMyAdmin for our backend database, along with mySQL and
+                        AJAX.</p>
                         <br>
                         <br>
                         <br>
                         <div class="row">
-                            <h3 class="text-center"> Second Place </h3>
+                            <h3 class="text-center"> Second Place: DNKRK </h3>
                             <img src="img/2ndPlace.jpg" alt="2ndPlace" align="middle">
                         </div>
                         <br>
-                        <p>San Jose consists of various objects &amp; areas that you can adopt, however the issue of a lack of adoptions presented by the representative from the city of San Jose seemed to stem from the absence of an easy way to do so. TreesGo aims to make adopting trees in the San Jose area easy and enjoyable by turning the system into a game much like Pokemon Go. </p>
-                        <p>Our web application consisted of both a front-end and a back-end. Our front-end interface was constructed using HTML, CSS, JavaScript, the Bootstrap framework, KnockOut.js, and some Google APIs. On the back end, we utilized RubyOnRails and SQLite3. </p>
+                        <p>DNKRK (Distributed Network Kernel &amp; Response Kit) is a platform for data collection when wide-spread internet connectivity is lost following natural disasters in highly populated areas with poor infrastructure, such as in Puerto Rico after Hurricane Maria. Over 24 hours, we developed three working parts to this platform: a bluetooth mesh network, a mobile application, and a web application. </p>
+                        <p>The bluetooth mesh network enables users to communicate data from our mobile application within a local network over bluetooth. The data collected from every node is stored in each phone in the network, and when a member of this network connects to the internet via a satellite phone or other internet connection, the data is pushed to our web application. We implemented routing algorithms and duplicate-data checks to ensure efficient communication. </p>
+                        <p>The mobile application has a form to collect valuable data including: number in group, presence of children or elderly, emergency status level, and status details such as being trapped or in the presence of fire. The profile is able to be updated as a group’s status or information changes. </p>
+                        <p>The web application then presents this data through heat-map overlays on top of Google Maps. The web dashboard allows first responders to see where population is most dense and draw important conclusions. For example, if many people in a certain area report being trapped, the responders can fairly assume a building has collapsed and send help immediately. </p>
                         <br>
                         <br>
                         <br>
                         <div class="row">
-                            <h3 class="text-center"> Third Place </h3>
+                            <h3 class="text-center"> Third Place: Disaster Data Drone </h3>
                             <img src="img/3rdPlace.jpg" alt="3rdPlace" align="middle">
                         </div>
                         <br>
-                        <p>Helping Hand is a mobile application that bridges the communication gap between service organizations and the beneficiaries of those services. When users make an account and login, they can easily see events that interest them and sort by different criteria. The mobile application serves Android, iOS, and any other phone that can send text message queries to our server! </p><p>Our application was built using HTML, CSS, Bootstrap, JavaScript/jQuery for the front-end. On the back-end, we utilized firebase as our database, twilio to handle our messaging queries, python for our scripting with the Yelp APIs, and AWS to host our server.</p>
+                        <p>In the event of a disaster, there is a high likely hood of communication and network infrastructure to be damaged causing there to be a lack of communication between those in the disaster areas and those not. In order to combat this, we created a system that would help relay and gather data from disaster areas via drones. We simulated a router and micro-controller set up that would be attached to a number of drones to be deployed in disaster areas. We imagine there would be a swarm of drones being sent out to an area where users would automatically connect to the mesh network the drones are transmitting. We used an off the shelf router and an Intel Edison to send and collect data from users on the ground through an iOS application. We created an iOS application that would easily allow users to send their status to the drone and eventually first responders or other aid organizations. In order to prevent loss of data from destruction of drones, we created a way for the micro-controllers to be listening for other drones and when they would be in range of each other, they would exchange the data given by the users. This would guarantee the data from the users, like location and status, would get to first responders or other aid organizations.</p>
                         <br>
                         <br>
                         <br>
