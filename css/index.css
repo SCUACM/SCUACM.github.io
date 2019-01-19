@@ -7,3 +7,9 @@
 .sponsor-placeholder {
 	width: 0;
 }
+
+.signup-button {
+	font-size: 15px;
+	padding: 12px 45px;
+	background-color: rgba(140, 197, 47, 0.8);
+}
