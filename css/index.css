@@ -1,0 +1,9 @@
+@media (min-width: 992px) {
+	.sponsor-placeholder {
+		width: 12.5% !important;
+	}
+}
+
+.sponsor-placeholder {
+	width: 0;
+}
