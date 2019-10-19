@@ -74,8 +74,7 @@ p {
   padding-left: 0;
 }
 .btn-outline {
-  color: #fff;
-  background-color: #307682;
+  color: #307682;
   border-color: #307682;
   border: 1px solid;
 }
@@ -92,6 +91,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
+  color: #fff;
 }
 .btn-xl {
   padding: 15px 45px;
