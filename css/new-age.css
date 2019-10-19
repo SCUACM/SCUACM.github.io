@@ -83,7 +83,7 @@ p {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #307682;
+  background-color: #8dc442;
   border-color: #307682;
 }
 .btn {
@@ -94,7 +94,7 @@ p {
 }
 .btn-xl {
   padding: 15px 45px;
-  font-size: 11px;
+  font-size: 14px;
   display: block;
   width: 187px;
   margin: auto;
