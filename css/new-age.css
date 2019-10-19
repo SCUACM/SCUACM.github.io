@@ -37,7 +37,6 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   text-decoration: all;
-  color: #307682;
 }
 a:hover,
 a:focus {
@@ -77,8 +76,8 @@ p {
 .btn-outline {
   color: #307682;
   background-color: #307682;
-  border-color: #307682;
-  /*border: 1px solid;*/
+  /*border-color: #307682;
+  border: 1px solid;*/
 }
 .btn-outline:hover,
 .btn-outline:focus,
