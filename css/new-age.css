@@ -93,7 +93,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
-  color: white;
+  color: #0d544e;
 }
 .btn-xl {
   padding: 15px 45px;
@@ -108,7 +108,7 @@ p {
   background: #232a35;
 }
 ::selection {
-  color: #307682;
+  color: #0d544e;
   text-shadow: none;
 }
 img::selection {
