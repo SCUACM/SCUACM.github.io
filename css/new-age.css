@@ -85,7 +85,7 @@ p {
 .btn-outline.active {
   color: #307682;
   background-color: #8dc442;
-  border-color: #8dc442;
+  border-color: #307682;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
