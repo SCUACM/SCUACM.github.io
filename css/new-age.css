@@ -102,12 +102,12 @@ p {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #307682;
+  background: #222222;
 }
 ::selection {
-  color: white;
+  color: #307682;
   text-shadow: none;
-  background: #307682;
+  background: #222222;
 }
 img::selection {
   color: white;
@@ -618,6 +618,7 @@ hr.sponsor-cutoff {
 a.no-decor {
   text-decoration: none;
 }
+
 .bg-primary {
   background: #232a35;
 }
