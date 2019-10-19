@@ -67,7 +67,7 @@ p {
   margin-bottom: 20px;
 }
 .text-primary {
-  color: #fdcc52;
+  color: #307682;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -83,8 +83,8 @@ p {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
+  background-color: #307682;
+  border-color: #307682;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -102,12 +102,11 @@ p {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #232a35;
 }
 ::selection {
   color: #307682;
   text-shadow: none;
-  /*background: #222222;*/
 }
 img::selection {
   color: white;
@@ -118,7 +117,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #232a35;
 }
 .logo {
   width: 75%;
@@ -145,7 +144,7 @@ body {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: #fdcc52;
+  color: #307682;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -153,7 +152,7 @@ body {
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
-  color: #222222;
+  color: #232a35;
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
@@ -164,15 +163,15 @@ body {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: #222222;
+  color: #232a35;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #307682;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
+  color: #307682;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -204,19 +203,19 @@ body {
     border-color: rgba(34, 34, 34, 0.1);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #222222;
+    color: #232a35;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fdcc52;
+    color: #307682;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #232a35;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #307682;
   }
 }
 
@@ -579,7 +578,7 @@ section.mentors .blockquote-footer {
 /*********** Footer (DEPRECATED) **************/
 /**********************************************/
 footer {
-  background-color: #222222;
+  background-color: #232a35;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -621,10 +620,6 @@ a.no-decor {
 
 .bg-primary {
   background: #232a35;
-}
-
-.page-scroll{
-  color: #232a35;
 }
 
 .page-scroll::selection{
