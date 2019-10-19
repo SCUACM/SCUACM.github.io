@@ -74,8 +74,8 @@ p {
   padding-left: 0;
 }
 .btn-outline {
-  color: #8dc442;
-  border-color: #8dc442;
+  color: #fff;
+  border-color: #307682;
   border: 1px solid;
 }
 .btn-outline:hover,
@@ -83,8 +83,8 @@ p {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #307682;
-  border-color: #307682;
+  background-color: #8dc442;
+  border-color: #8dc442;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
