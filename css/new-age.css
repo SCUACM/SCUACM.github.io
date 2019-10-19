@@ -75,15 +75,15 @@ p {
 }
 .btn-outline {
   color: #fff;
+  background-color: #307682;
   border-color: #307682;
-  background: #307682;
   border: 1px solid;
 }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #307682;
+  color: #fff;
   background-color: #8dc442;
   border-color: #8dc442;
 }
