@@ -625,6 +625,8 @@ a.no-decor {
   background: #0d544e;
 }
 
-.page-scroll::selection{
+.page-scroll::selection,
+.page-scroll.active,
+.page-scroll:hover{
   color: #8dc442;
 }
