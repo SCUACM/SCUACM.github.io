@@ -622,6 +622,11 @@ a.no-decor {
 .bg-primary {
   background: #232a35;
 }
+
+.page-scroll{
+  background: #232a35;
+}
+
 .page-scroll::selection{
-   color: #307682;
+  color: #307682;
 }
