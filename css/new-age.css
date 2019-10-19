@@ -37,6 +37,7 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   text-decoration: all;
+  color: #307682;
 }
 a:hover,
 a:focus {
@@ -92,7 +93,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
-  color: #fff;
+  color: white;
 }
 .btn-xl {
   padding: 15px 45px;
