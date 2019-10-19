@@ -102,12 +102,12 @@ p {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #307682;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #307682;
 }
 img::selection {
   color: white;
@@ -118,7 +118,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #307682;
+  webkit-tap-highlight-color: #222222;
 }
 .logo {
   width: 75%;
