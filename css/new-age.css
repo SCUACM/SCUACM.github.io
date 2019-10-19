@@ -84,7 +84,7 @@ p {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #0d544e;
+  color: white;
   background-color: #307682;
   /*border-color: #8dc442;*/
 }
