@@ -110,7 +110,7 @@ p {
 ::selection {
   color: #8dc442;
   background-color: white;
-  /*text-shadow: none;*/
+  text-shadow: none;
 }
 img::selection {
   color: white;
@@ -121,7 +121,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #232a35;
+  webkit-tap-highlight-color: #8dc442;
 }
 .logo {
   width: 75%;
