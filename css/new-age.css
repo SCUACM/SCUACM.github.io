@@ -76,7 +76,7 @@ p {
 }
 .btn-outline {
   color: #307682;
-  background-color: #307682;
+  background-color: #8dc442;
   /*border-color: #307682;
   border: 1px solid;*/
 }
@@ -85,7 +85,7 @@ p {
 .btn-outline:active,
 .btn-outline.active {
   color: #307682;
-  background-color: #8dc442;
+  background-color: #307682;
   /*border-color: #8dc442;*/
 }
 .btn {
