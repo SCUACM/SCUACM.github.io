@@ -622,3 +622,6 @@ a.no-decor {
 .bg-primary {
   background: #232a35;
 }
+.page-scroll.active{
+   background: #307682;
+}
