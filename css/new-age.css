@@ -36,11 +36,12 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
+  color: #8dc442;
   text-decoration: underline;
 }
 a:hover,
 a:focus {
-  color: #8dc442;
+  color: #307682;
 }
 hr {
   max-width: 100px;
