@@ -631,3 +631,8 @@ a.no-decor {
 .page-scroll:hover{
   color: #8dc442;
 }
+
+img .connect{
+  height: 50;
+  width: 50;
+}
