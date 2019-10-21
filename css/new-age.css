@@ -633,7 +633,7 @@ a.no-decor {
 }
 
 #connect img{
-  display: block;
+  display: inline;
   height: 50;
   width: 50;
 }
