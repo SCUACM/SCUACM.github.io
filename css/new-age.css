@@ -632,7 +632,8 @@ a.no-decor {
   color: #8dc442;
 }
 
-.connect-bubble img{
+#connect img{
+  display: block;
   height: 50;
   width: 50;
 }
