@@ -109,7 +109,7 @@ p {
 }
 ::selection {
   color: #8dc442;
-  background-color: white;
+  /*background-color: #fff;*/
   text-shadow: none;
 }
 img::selection {
