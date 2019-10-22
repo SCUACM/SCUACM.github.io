@@ -236,7 +236,7 @@ header {
   overflow-y: hidden;
   background-image: url("../img/hackForHumanity.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
   color: white;
 }
@@ -636,4 +636,5 @@ a.no-decor {
 
 .connect{
   display: inline;
+  float: center;
 }
