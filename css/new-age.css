@@ -630,10 +630,13 @@ a.no-decor {
   background-color: rgb(0, 0, 0, .7);
 }
 
-.row {
+/*.row {
     text-align: center;
 }
 
 .col-md-1 {
     display:inline-block;
+}*/
+.logos a{
+  padding: 15;
 }
