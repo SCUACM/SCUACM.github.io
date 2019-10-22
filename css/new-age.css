@@ -627,11 +627,11 @@ a.no-decor {
 }
 
 .carousel-caption{
-  background-color: rgb(48, 118, 130, .7);
+  background-color: rgb(0, 0, 0, .7);
 }
 
 /*div.row.text-center{
-  
+
   display: contents;
   border-spacing: 15;
 
