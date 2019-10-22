@@ -625,3 +625,12 @@ a.no-decor {
 .page-scroll:hover{
   color: #8dc442;
 }
+
+.carousel{
+  text-align: center;
+}
+
+.carousel-caption{
+  background-color: #307682;
+  opacity: 50%;
+}
