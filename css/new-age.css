@@ -631,6 +631,5 @@ a.no-decor {
 }
 
 .carousel-caption{
-  background-color: #307682;
-  opacity: 50%;
+  background-color: rgb(48, 118, 130, .5);
 }
