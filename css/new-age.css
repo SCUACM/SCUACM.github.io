@@ -626,15 +626,13 @@ a.no-decor {
   color: #8dc442;
 }
 
-/*.carousel{
-  text-align: center;
-}*/
-
 .carousel-caption{
   background-color: rgb(48, 118, 130, .7);
 }
 
-.connect{
+/*div.row.text-center{
+  
   display: contents;
   border-spacing: 15;
-}
+
+}  */
