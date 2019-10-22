@@ -236,7 +236,7 @@ header {
   overflow-y: hidden;
   background-image: url("../img/hackForHumanity.jpg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top center; /*added top*/
   background-size: cover;
   color: white;
 }
@@ -310,7 +310,10 @@ header .inline-button {
   display: inline;
   margin: 0% 1% 0% 1%;
 }
-
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9{
+    justify-content: center;
+    display: inline-table;
+}
 
 
 
