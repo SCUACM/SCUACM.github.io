@@ -626,14 +626,15 @@ a.no-decor {
   color: #8dc442;
 }
 
-.carousel{
+/*.carousel{
   text-align: center;
-}
+}*/
 
 .carousel-caption{
   background-color: rgb(48, 118, 130, .7);
 }
 
 .connect{
-  display: inline;
+  display: contents;
+  border-spacing: 15;
 }
