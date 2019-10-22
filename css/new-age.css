@@ -638,5 +638,5 @@ a.no-decor {
     display:inline-block;
 }*/
 .logos a{
-  padding: 50px;
+  padding: 30px !important;
 }
