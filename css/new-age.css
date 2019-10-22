@@ -633,3 +633,7 @@ a.no-decor {
 .carousel-caption{
   background-color: rgb(48, 118, 130, .7);
 }
+
+.connect{
+  display: inline;
+}
