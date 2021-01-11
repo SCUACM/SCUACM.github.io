@@ -357,6 +357,11 @@ section.sponsors .badges img {
     background: white;
 }
 
+section.sponsors .logos img{
+  width: 6%;
+  height: auto;
+}
+
 section.sponsors img{
   width: 100%;
   height: auto;
