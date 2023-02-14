@@ -335,6 +335,13 @@ section.sponsors {
   padding: 75px 0;
   position: relative;
 }
+
+/*section.sponsors .badges .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
 section.sponsors h2 {
   margin-top: -25px;
   font-size: 50px;
@@ -342,6 +349,7 @@ section.sponsors h2 {
 section.sponsors .badges center {
   width: 100%;
 }
+
 section.sponsors .badges img {
   border-radius: 50%;
   width: inherit;
@@ -366,6 +374,7 @@ section.sponsors img{
   width: 100%;
   height: auto;
 }
+
 
 
 /**********************************************/
@@ -432,6 +441,7 @@ section.about td:first-child {
 section.about td:nth-child(2) {
   text-align: left;
 }
+
 
 
 
@@ -566,8 +576,6 @@ section.contact ul.list-social li.social-google-plus a {
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
-
-
 
 
 
