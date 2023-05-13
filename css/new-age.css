@@ -682,3 +682,24 @@ a.no-decor {
 .logos a{
   padding: 30px !important;
 }
+
+
+/* I created a new footer class below to make the social media logos flex */
+
+section.footer div.logos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+section.footer div.logos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+section.footer div.logos img{
+  width: 75px;
+}
