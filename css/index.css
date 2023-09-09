@@ -1,3 +1,22 @@
+/*** CUSTOMIZATIONS ***/
+
+:root {
+	--primary: #7FCB73;
+	--background: #0D544E;
+}
+
+::selection {
+  color: var(--primary);
+  /*background-color: #fff;*/
+}
+
+section {
+  padding: 100px 0;
+}
+
+
+/*** SPONSORS ***/
+
 @media (min-width: 992px) {
 	.sponsor-placeholder {
 		width: 12.5% !important;
@@ -12,4 +31,39 @@
 	font-size: 15px;
 	padding: 12px 45px;
 	background-color: rgba(140, 197, 47, 0.8);
+}
+
+/*** BUTTONS ***/
+
+.button {
+	background: var(--primary);
+	width: 200px;
+	padding: 20px;
+	margin: min(50px, 5vh) auto;
+	border-radius: 20px;
+	color: black;
+}
+
+.button:hover {
+	background: white;
+	transition: 0.25s;
+}
+
+
+/** HERO **/
+
+.hero {
+  background: url("../img/h4h-hero1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hero > h1, h2 {
+	color: white;
+}
+
+.hero-title {
+	font-size: 3.5em;
+	font-weight: 700;
 }
