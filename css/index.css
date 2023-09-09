@@ -14,6 +14,19 @@ section {
   padding: 100px 0;
 }
 
+h1 {
+	font-weight: 500;
+}
+
+/*** GOOGLE MATERIAL DESIGN ICON ***/
+
+.material-symbols-outlined.help{
+	font-size: 18px;
+}
+
+.material-symbols-outlined.info{
+	font-size: 13px;
+}
 
 /*** SPONSORS ***/
 
@@ -65,7 +78,7 @@ section {
 
 .hero-title {
 	font-size: 3.5em;
-	font-weight: 700;
+	font-weight: 700 !important;
 }
 
 @media (max-width: 425px) {
@@ -76,4 +89,11 @@ section {
 	.hero .container h2 {
 		font-size: 1.5em;
 	}
+}
+
+/*** ABOUT ***/
+
+.faq-help {
+	font-weight: 600;
+	font-size: 20px;
 }

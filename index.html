@@ -28,6 +28,10 @@
 	<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
 	<link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
 
+	<!-- Google Material Design Question Mark -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
 	<!-- Theme CSS -->
 	<link href="css/new-age.css" rel="stylesheet">
 
@@ -59,7 +63,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a class="page-scroll no-decor" href="#home"><b>Sign Up</b></a>
+						<a class="page-scroll no-decor" href="#page-top"><b>Sign Up</b></a>
 					</li>
 					<li>
 						<a class="page-scroll no-decor" href="#about">About</a>
@@ -101,167 +105,187 @@
 		</div>
 	</section>
 
-	<section id="about" class="about">
+	<section id="about" class="about" style="padding-top: 25px;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-4 col-sm-6">
-								<div class="feature-item">
-									<h3>What's a Hackathon?</h3>
-									<p class="text-muted">A hackathon is an opportunity when you and your team come together to construct a cool and inventive project in 24 hours!</p>
-									<br />
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-6">
-								<div class="feature-item">
-									<h3>How big can my team be?</h3>
-									<p class="text-muted">We require all teams to be comprised of 2-6 people. This is a great way for you to work with others, and learn about the design process.</p>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-6">
-								<div class="feature-item">
-									<h3>What if I don't have a team?</h3>
-									<p class="text-muted">No problem! We will help connect you with other students who are also looking for teammates before and during the event.</p>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-6">
-								<div class="feature-item">
-									<h3>Who can attend?</h3>
-									<p class="text-muted">All undergraduate and graduate students of all majors are welcome! No prior technical experience is required. We'll have mentors and resources to help you along the way.
-									</p>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-6">
-								<div class="feature-item">
-									<h3>I've never been to a Hackathon!</h3>
-									<p class="text-muted">No worries! Hackathons are a great way to develop your skills and see what you can accomplish.</p>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-6">
-								<div class="feature-item">
-									<h3>Any other questions?</h3>
-									<p class="text-muted">Feel free to email us at <a href="mailto:acm@scu.edu" class="no-decor">acm@scu.edu</a> if you have any questions or concerns!</p>
-								</div>
-							</div>
-						</div>
-					</div>
+			<h1>About Hack for Humanity</h1>
+			<p>
+				Hack for Humanity is an opportunity to identify and solve pressing social issues using your creativity and code. We host a series of workshops, bring experienced mentors, and create networking opportunities with industry professionals. Come enjoy the free food, free merch, and exciting events planned	!
+			</p>
+			<div id="aboutCarousel" class="carousel slide" data-ride="carousel">
+	    	<!-- Indicators -->
+		    <ol class="carousel-indicators">
+				<li data-target="#aboutCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#aboutCarousel" data-slide-to="1"></li>
+				<li data-target="#aboutCarousel" data-slide-to="2"></li>
+				<li data-target="#aboutCarousel" data-slide-to="3"></li>
+			 	<li data-target="#aboutCarousel" data-slide-to="4"></li>
+				<li data-target="#aboutCarousel" data-slide-to="5"></li>
+				<li data-target="#aboutCarousel" data-slide-to="6"></li>
+		    </ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner text-center">
+				<div class="item active">
+					<img src="img\preview-images\20230219_114834.jpg" style="height: 450px; width: 100%; object-fit: cover">
+				</div>
+				<div class="item">
+					<img src="img\preview-images\20230219_002202.jpg" style="height: 450px; width: 100%; object-fit: cover">
+				</div>
+				<div class="item">
+					<img src="img\preview-images\IMG_6128.JPG" style="height: 450px; width: 100%; object-fit: cover">
+				</div>
+				<div class="item">
+					<img src="img\preview-images\IMG_6035.JPG" style="height: 450px; width: 100%; object-fit: cover">
+				</div>
+				<div class="item">
+					<img src="img\preview-images\IMG_6213.JPG" style="height: 450px; width: 100%; object-fit: cover">
+				</div>
+				<div class="item">
+					<img src="img\preview-images\IMG_5311.jpg" style="height: 450px; width: 100%; object-fit: cover">
+				</div>
+				<div class="item">
+					<img src="img\preview-images\IMG_5316.jpg" style="height: 450px; width: 100%; object-fit: cover">
+				</div>
+				</div>
+				<a class="left carousel-control" href="#aboutCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#aboutCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div> 
+
+			<h1>FAQs</h1>
+			<div class="container-fluid" style="margin-left: -10px;">
+				<div class="col-md-4">
+					<h3 class="faq-help"><span class="material-symbols-outlined help">help</span> What's a Hackathon?</h3>
+					<p>A hackathon is an opportunity when you and your team come together to construct a cool and inventive project in 24 hours!</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="faq-help"><span class="material-symbols-outlined help">help</span> How big can my team be?</h3>
+					<p>We require all teams to be comprised of 2-6 people. This is a great way for you to work with others, and learn about the design process.</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="faq-help"><span class="material-symbols-outlined help">help</span> What if I don't have a team?</h3>
+					<p>No problem! We will help connect you with other students who are also looking for teammates before and during the event.</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="faq-help"><span class="material-symbols-outlined help">help</span> Who can attend?</h3>
+					<p>All undergraduate and graduate students of all majors are welcome! No prior technical experience is required. We'll have mentors and resources to help you along the way.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="faq-help"><span class="material-symbols-outlined help">help</span> I've never been to a Hackathon!</h3>
+					<p>No worries! Hackathons are a great way to develop your skills and see what you can accomplish.</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="faq-help"><span class="material-symbols-outlined help">help</span> Any other questions?</h3>
+					<p>Feel free to email us at <a href="mailto:acm@scu.edu" class="no-decor">acm@scu.edu</a> if you have any questions or concerns!</p>
 				</div>
 			</div>
-			<hr>
-			<div>
+			
+			<h1>2023 Schedule</h1>	
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="container-fluid">
-						<div class="row text-center">
-							<h2>2023 Schedule</h2>
-							<h4>Events in PST</h4>
+				<div class="container-fluid">
+					<h5 style="font-weight: 500"><span class="material-symbols-outlined info">info</span> Events in PST</h5>
+					<div class="row">
+						<div class="col-md-6">
+							<h3>Day Before: February 17th 2023</h3>
+							<table>
+								<tr>
+									<td>4:30 PM</td>
+									<td>Career Center Workshop - Kenna 102 🧑‍🎓</td>
+								</tr>
+							</table>
+							<h3>Day One: February 18th 2023</h4>
+							<table>
+								<tr>
+									<td>9:00 AM</td>
+									<td>Networking Breakfast 🍳✅</td>
+								</tr>
+								<tr>
+									<td>10:00 AM</td>
+									<td>Opening Keynote 📝</td>
+								</tr>
+								<tr>
+									<td>10:30 AM</td>
+									<td>Team Formation 🤝</td>
+								</tr>
+								<tr>
+									<td>11:00 AM</td>
+									<td>Hacking Begins! 💻</td>
+								</tr>
+								<tr>
+									<td>12:00 PM</td>
+									<td>Photobooth 📸<br>Git It All Together 💻<br>All About API's 💬</td>
+								</tr>
+								<tr>
+									<td>1:00 PM</td>
+									<td>Lunch Break! 🥪</td>
+								</tr>
+								<tr>
+									<td>2:00 PM</td>
+									<td>Add Login to Your JavaScript Application with Auth0 👥</td>
+								</tr>
+								<tr>
+									<td>3:00 PM</td>
+									<td>Activity Break 1: Scavenger Hunt! 📜🗺<br>Bringing Your Website to Life with React.js ⚛️<br>Flask Frenzy: The Fundamentals and Beyond (Python) 🐍</td>
+								</tr>
+								<tr>
+									<td>4:00 PM</td>
+									<td>LaTeX Workshop 🕊<br>Connecting Everything Together: Full-Stack Website Development 🧩</td>
+								</tr>
+								<tr>
+									<td>6:00 PM</td>
+									<td>Dinner break 🍕</td>
+								</tr>
+								<tr>
+									<td>7:00 PM</td>
+									<td>Activity Break 2: Surprise Student Performer! 🎙</td>
+								</tr>
+							</table>
 						</div>
-						<div class="row">
-							<div class="col-md-6 text-center">
-								<div class="text-center">
-									<h3>Day Before: February 17th 2023</h4>
-								</div>
-									<table>
-										<tr>
-											<td>4:30 PM</td>
-											<td>Career Center Workshop - Kenna 102 🧑‍🎓</td>
-										</tr>
-									</table>
-								<div class="text-center">
-									<h3>Day One: February 18th 2023</h4>
-								</div>
-									<table>
-										<tr>
-											<td>9:00 AM</td>
-											<td>Networking Breakfast 🍳✅</td>
-										</tr>
-										<tr>
-											<td>10:00 AM</td>
-											<td>Opening Keynote 📝</td>
-										</tr>
-										<tr>
-											<td>10:30 AM</td>
-											<td>Team Formation 🤝</td>
-										</tr>
-										<tr>
-											<td>11:00 AM</td>
-											<td>Hacking Begins! 💻</td>
-										</tr>
-										<tr>
-											<td>12:00 PM</td>
-											<td>Photobooth 📸<br>Git It All Together 💻<br>All About API's 💬</td>
-										</tr>
-										<tr>
-											<td>1:00 PM</td>
-											<td>Lunch Break! 🥪</td>
-										</tr>
-										<tr>
-											<td>2:00 PM</td>
-											<td>Add Login to Your JavaScript Application with Auth0 👥</td>
-										</tr>
-										<tr>
-											<td>3:00 PM</td>
-											<td>Activity Break 1: Scavenger Hunt! 📜🗺<br>Bringing Your Website to Life with React.js ⚛️<br>Flask Frenzy: The Fundamentals and Beyond (Python) 🐍</td>
-										</tr>
-										<tr>
-											<td>4:00 PM</td>
-											<td>LaTeX Workshop 🕊<br>Connecting Everything Together: Full-Stack Website Development 🧩</td>
-										</tr>
-										<tr>
-											<td>6:00 PM</td>
-											<td>Dinner break 🍕</td>
-										</tr>
-										<tr>
-											<td>7:00 PM</td>
-											<td>Activity Break 2: Surprise Student Performer! 🎙</td>
-										</tr>
-									</table>
-							</div>
-							<div class="col-md-6 text-center">
-								<div class="text-center">
-									<h3>Day Two: February 19th 2023</h4>
-								</div>
-									<table>
-										<tr>
-											<td>12:00 AM</td>
-											<td>Activity Break 3: Midnight S'mores 🔥⛺🌚</td>
-										</tr>
-										<tr>
-											<td>9:30 AM</td>
-											<td>Devpost Submission Q&A ❓</td>
-										</tr>
-										<tr>
-											<td>10:30 AM</td>
-											<td><a href="https://hack-for-humanity-2023.devpost.com/">Devpost</a> Submissions Due! 📝</td>
-										</tr>
-										<tr>
-											<td>10:30 AM</td>
-											<td>Raffle Tickets 🎟</td>
-										</tr>
-										<tr>
-											<td>11:00 AM</td>
-											<td>Demos and Judging Begin! 🤔</td>
-										</tr>
-										<tr>
-											<td>12:45 PM</td>
-											<td>Finalist Presentations 🎤</td>
-										</tr>
-										<tr>
-											<td>2:00 PM</td>
-											<td> Winners Announced! 🤑🏆💯</td>
-										</tr>
-									</table>
-								
-							</div>
+						<div class="col-md-6">
+							<h3>Day Two: February 19th 2023</h4>
+							<table>
+								<tr>
+									<td>12:00 AM</td>
+									<td>Activity Break 3: Midnight S'mores 🔥⛺🌚</td>
+								</tr>
+								<tr>
+									<td>9:30 AM</td>
+									<td>Devpost Submission Q&A ❓</td>
+								</tr>
+								<tr>
+									<td>10:30 AM</td>
+									<td><a href="https://hack-for-humanity-2023.devpost.com/">Devpost</a> Submissions Due! 📝</td>
+								</tr>
+								<tr>
+									<td>10:30 AM</td>
+									<td>Raffle Tickets 🎟</td>
+								</tr>
+								<tr>
+									<td>11:00 AM</td>
+									<td>Demos and Judging Begin! 🤔</td>
+								</tr>
+								<tr>
+									<td>12:45 PM</td>
+									<td>Finalist Presentations 🎤</td>
+								</tr>
+								<tr>
+									<td>2:00 PM</td>
+									<td> Winners Announced! 🤑🏆💯</td>
+								</tr>
+							</table>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-    </div>
+	
 	<section id="themes" class="sponsors bg-primary text-center">
 		<div class="container">
 			<div class="row">
