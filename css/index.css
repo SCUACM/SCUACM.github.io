@@ -38,7 +38,7 @@ section {
 .button {
 	background: var(--primary);
 	width: 200px;
-	padding: 20px;
+	padding: 15px;
 	margin: min(50px, 5vh) auto;
 	border-radius: 20px;
 	color: black;
@@ -59,11 +59,21 @@ section {
 	background-position: center;
 }
 
-.hero > h1, h2 {
+.hero .container h1, h2 {
 	color: white;
 }
 
 .hero-title {
 	font-size: 3.5em;
 	font-weight: 700;
+}
+
+@media (max-width: 425px) {
+	.hero-title {
+		font-size: 2em;
+	}
+
+	.hero .container h2 {
+		font-size: 1.5em;
+	}
 }
