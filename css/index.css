@@ -50,11 +50,10 @@ h1 {
 
 .button {
 	background: var(--primary);
-	width: 200px;
-	padding: 15px;
-	margin: min(50px, 5vh) auto;
+	padding: 15px 35px 15px;
 	border-radius: 20px;
 	color: black;
+	font-weight: 500;
 }
 
 .button:hover {
