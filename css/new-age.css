@@ -664,7 +664,7 @@ a.no-decor {
     display:inline-block;
 }*/
 .logos a{
-  padding: 30px !important;
+  padding: min(30px, 5vw) !important;
 }
 
 
@@ -685,5 +685,16 @@ section.footer div.logos{
 }
 
 section.footer div.logos img{
-  width: 75px;
+  width: clamp(40px, 5vw, 75px);
+}
+
+section.footer h2 {
+  margin-top: -25px;
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  section.footer h2 {
+    font-size: 70px;
+  }
 }
