@@ -65,7 +65,7 @@ h1 {
 /** HERO **/
 
 .hero {
-  background: url("../img/h4h-hero1.jpg");
+  background-image: url("../img/h4h-hero1.jpg"), url("../img/h4h-hero1-low-res.png");
   background-size: cover;
   background-repeat: no-repeat;
 	background-position: center;
